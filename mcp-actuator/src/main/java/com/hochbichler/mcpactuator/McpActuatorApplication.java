@@ -1,0 +1,12 @@
+package com.hochbichler.mcpactuator;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class McpActuatorApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(McpActuatorApplication.class, args);
+    }
+}
